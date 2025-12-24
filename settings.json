@@ -1,0 +1,101 @@
+{
+  /* ===== Tema / Cores ===== */
+  "workbench.colorTheme": "Min Theme+",
+  "editor.semanticHighlighting.enabled": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+
+  /* ===== Fonte / Texto (IGUAL À IMAGEM) ===== */
+  "editor.fontFamily": "Consolas, 'Courier New', monospace",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 19,
+  "editor.fontLigatures": false,
+  "editor.renderWhitespace": "none",
+
+  /* ===== Editor (limpo) ===== */
+  "editor.minimap.enabled": false,
+  "editor.stickyScroll.enabled": false,
+  "breadcrumbs.enabled": false,
+  "editor.scrollbar.shadow": false,
+  "editor.overviewRulerBorder": false,
+  "editor.renderLineHighlight": "none",
+  "editor.guides.indentation": false,
+  "editor.guides.highlightActiveIndentation": false,
+
+  /* ===== Explorer / Git ===== */
+  "explorer.decorations.badges": false,
+  "explorer.decorations.colors": false,
+  "git.decorations.enabled": false,
+  "git.ignoreLimitWarning": true,
+
+  /* ===== UI (Cursor-like) ===== */
+  "workbench.activityBar.visible": false,
+  "window.commandCenter": false,
+  "workbench.statusBar.visible": true,
+  "workbench.sideBar.location": "right",
+
+  /* ===== Tabs / Layout ===== */
+  "workbench.editor.showTabs": "multiple",
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.editor.enablePreview": false,
+
+  /* ===== Search / Sugestões ===== */
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+  },
+  "editor.suggestSelection": "first",
+  "editor.inlineSuggest.enabled": true,
+
+  /* ===== Syntax (estilo Cursor) ===== */
+  "editor.tokenColorCustomizations": {
+    "comments": "#6A9955",
+    "strings": "#CE9178",
+    "keywords": "#C586C0",
+    "numbers": "#B5CEA8",
+    "types": "#4EC9B0",
+    "functions": "#DCDCAA",
+    "variables": "#9CDCFE",
+
+    "textMateRules": [
+      {
+        "scope": [
+          "support.type.property-name.json",
+          "meta.object-literal.key.json",
+          "meta.object.member.json",
+          "meta.mapping.key.json"
+        ],
+        "settings": { "foreground": "#9CDCFE" }
+      },
+      {
+        "scope": ["string.quoted.double.json", "string.json"],
+        "settings": { "foreground": "#CE9178" }
+      },
+      {
+        "scope": ["constant.numeric", "constant.numeric.json"],
+        "settings": { "foreground": "#B5CEA8" }
+      },
+      {
+        "scope": ["constant.language", "constant.language.json"],
+        "settings": { "foreground": "#C586C0" }
+      },
+      {
+        "scope": [
+          "punctuation.definition.dictionary.begin.json",
+          "punctuation.definition.dictionary.end.json",
+          "punctuation.definition.array.begin.json",
+          "punctuation.definition.array.end.json",
+          "punctuation.separator.dictionary.key-value.json",
+          "punctuation.separator.dictionary.pair.json",
+          "punctuation.separator.array.json"
+        ],
+        "settings": { "foreground": "#D4D4D4" }
+      }
+    ]
+  },
+
+  /* ===== Seu setup ===== */
+  "kiroAgent.configureMCP": "Enabled",
+  "codium.codeCompletion.enable": false
+}
